@@ -11,8 +11,8 @@ const Header = () => {
       <h1 className="text-2xl font-bold">Safari & Ride</h1>
       <nav className="flex items-center space-x-6">
         <ul className="flex space-x-6">
-          <li><Link href="/create-ride" className="hover:underline">Create Ride</Link></li>
-          <li><Link href="/safari" className="hover:underline">Book Safari</Link></li>
+          <li><Link href="/request-ride" className="hover:underline">Request Ride</Link></li>
+          <li><Link href="/safaris" className="hover:underline">Book Safari</Link></li>
           <li><Link href="/admin" className="hover:underline">Admin Panel</Link></li>
         </ul>
         {/* Profile Dropdown */}
